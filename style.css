@@ -1,0 +1,53 @@
+:root {
+    --almostWhite: hsl(0, 0%, 98%);
+    --mediumGray: hsl(0, 0%, 41%);
+    --almostBlack: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.desktop-header-img {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    min-height: 8vh;
+}
+
+nav li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.features-dropdown {
+    display: none;
+}
+
+.company-dropdown {
+    display: none;
+}
+
+.mobile-menu-icons {
+    display: none;
+}
+
+.nav-links {
+    display: inline;
+    width: 40%;
+}
